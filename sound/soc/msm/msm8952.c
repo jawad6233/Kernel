@@ -113,8 +113,6 @@ static struct wcd_mbhc_config mbhc_cfg = {
 	.hs_ext_micbias = false,
 	.key_code[0] = KEY_MEDIA,
 #if defined(CONFIG_AW87319)
- 	.key_code[1] = KEY_PREVIOUSSONG_NEW,
-        .key_code[2] = KEY_NEXTSONG_NEW,
         .key_code[3] = KEY_VOICECOMMAND,
 #else
 	.key_code[1] = KEY_VOICECOMMAND,
